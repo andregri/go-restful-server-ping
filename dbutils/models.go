@@ -12,7 +12,7 @@ const stationTable = `
 	CREATE TABLE IF NOT EXISTS station (
 		id INTEGER PRIMARY KEY AUTOINCREMENT,
 		name VARCHAR(64) NULL,
-		openin_time TIME NULL,
+		opening_time TIME NULL,
 		closing_time TIME NULL
 	)
 `

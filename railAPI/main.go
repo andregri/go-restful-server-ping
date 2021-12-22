@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/andregri/go-restful-server-ping/dbutils"
+	"github.com/andregri/go-restful-sqlite-metroRailAPI/dbutils"
 	"github.com/emicklei/go-restful"
 	_ "github.com/mattn/go-sqlite3"
 )

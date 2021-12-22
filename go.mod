@@ -2,7 +2,10 @@ module github.com/andregri/go-restful-server-ping
 
 go 1.17
 
-require github.com/emicklei/go-restful v2.15.0+incompatible
+require (
+	github.com/emicklei/go-restful v2.15.0+incompatible
+	github.com/mattn/go-sqlite3 v1.14.9
+)
 
 require (
 	github.com/json-iterator/go v1.1.12 // indirect
